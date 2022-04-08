@@ -45,11 +45,14 @@ class CourseList extends Component {
 
                 </Card>
 
-                <div>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
                     <img
                         src="/assets/images/cubic.png"  
-                        alt='testA' 
-                        className="Center"
+                        alt='cubic' 
+                        className="cubic"
                         />
                 </div>
 
