@@ -1,11 +1,23 @@
-import React, {Component} from 'react'
-import './Userplane.css'
+import React, {Component} from 'react';
+import './Userplane.css';
+import { Box , Card, CardContent , Typography} from "@material-ui/core";
 
-import { Box , Card, CardContent , Typography} from "@material-ui/core"
+import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+import YouTube from 'react-youtube';
 
 class CourseList extends Component {
 
+
     render() { 
+        const opts = {
+            height: '390',
+            width: '640',
+            playerVars: {
+              // https://developers.google.com/youtube/player_parameters
+              autoplay: 0,
+            },
+          };
+
         return (
             <div>
                 <Card>
@@ -57,8 +69,7 @@ class CourseList extends Component {
                 </div>
 
                 <Card>
-                    <CardContent>
-                
+                    <CardContent>   
                         <Typography gutterBottom variant="h5" component="div">
                         Lizard
                         </Typography>
@@ -67,7 +78,6 @@ class CourseList extends Component {
                         species, ranging across all continents except Antarctica
                         </Typography>
                     </CardContent>
-
                 </Card>
 
                 <div>
@@ -91,14 +101,279 @@ class CourseList extends Component {
                     </CardContent>
 
                 </Card>
+                <ReactCompareSlider
+                itemOne={<ReactCompareSliderImage src="/assets/images/cad-tessellation-example-surface.webp"  alt="Image one" />}
+                itemTwo={<ReactCompareSliderImage src="/assets/images/cad-tessellation-example-wireframe.webp" alt="Image two" />}
+                />
+                 <Card>
+                    <CardContent>
+                
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+
+                </Card>
+
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                    <img
+                        src="/assets/images/Product_Salt Flat.jpeg"  
+                        alt='testA' 
+                        className="Center"
+                        />
+                </div>
+
+                <Card>
+                    <CardContent>
+                
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+
+                </Card>
+                <div >
+                    <img
+                        src="/assets/images/depth.jpg"  
+                        alt='cubic' 
+                        className="Center"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div >
+                    <img
+                        src="/assets/images/synthesis.jpeg"  
+                        alt='synthesis' 
+                        className="Center"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div >
+                    <img
+                        src="/assets/images/Vehicle_design_using_AR.jpeg"  
+                        alt='using_AR' 
+                        className="Center"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                    <img
+                        src="/assets/images/engineroom_checklist.jpg"  
+                        alt='cubic' 
+                        className="cubic"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div >
+                    <img
+                        src="/assets/images/azure-digital-twins-explorer-demo.png"  
+                        alt='cubic' 
+                        className="Center"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                    <img
+                        src="/assets/images/pipelines-xgboost-graph.png"  
+                        alt='cubic' 
+                        className="cubic"
+                        />
+                    <img
+                        src="/assets/images/roc.png"  
+                        alt='cubic' 
+                        className="cubic"
+                        />
+                </div>
+
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <YouTube className="Center" videoId="UVqDpfruFjc" opts={opts} onReady={this._onReady} />;
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                <YouTube className="cubic" videoId="qIcTM8WXFjk" opts={opts} onReady={this._onReady} />;
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        High Performance Computing 
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary" >
+                        Native 환경에서의 시뮬레이션은 다른 환경으로의 이식이나 시뮬레이션 경험의 공유등의 어려움이 존재합니다.
+                        그림에서는 wasm 기술을 사용하여 Native 작동에 가까운 Performance 를 보여주고 있습니다 
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary" >
+                        Images courtesy of Siemens AG, Germany,
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                    <img
+                        src="/assets/images/wasm.png"  
+                        alt='cubic' 
+                        className="cubic"
+                        />
+                </div>
+
+                <Card>
+                    <CardContent>   
+                        <Typography gutterBottom variant="h5" component="div">
+                        Connect
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        현실에 존재하지 않는 환경에 대한 정보와 
+                        시각적 렌더링 ,
+                        물리적 환경과 가상환경 그리고 사용자와의 상호작용 
+                        라이프로깅을 더함으로써 시뮬레이션 생산성을 극대화합니다
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div style={{
+                    backgroundColor: 'black'
+                    
+                }}>
+                    <img
+                        src="/assets/images/connect.jpg"  
+                        alt='connect' 
+                        className="connect"
+                        />
+                </div>
+
+                <Card>
+                    <CardContent>   
+                        <Typography gutterBottom variant="h5" component="div">
+                        Future plan - Material Intelligence
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        인스턴스 세그먼테이션을 통한 영역분리, 3차원 깊이정보 및 광학 흐름 등의 풍부한 주석이 있는 쎄미 리얼리스틱한 합성물로부터 디지털트윈 구현을 위한 풍부한 오브젝트를 지원합니다
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary" >
+                        Images courtesy of Google Research,
+                        </Typography>
+                    </CardContent>
+                </Card>
+                <div >
+                    <img
+                        src="/assets/images/kubric.gif"
+                        alt='kubric' 
+                        className="Center"
+                        />
+                </div>
+                <Card>
+                    <CardContent>
+                        <Typography gutterBottom variant="h5" component="div">
+                        Lizard
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        Lizards are a widespread group of squamate reptiles, with over 6,000
+                        species, ranging across all continents except Antarctica
+                        </Typography>
+                    </CardContent>
+                </Card>
+    </div>
 
 
 
 
-
-            </div>
   
         )
     }
+    _onReady(event) {
+        // access to player in all event handlers via event.target
+        event.target.pauseVideo();
+      }
+
 }
+
 export default CourseList;
