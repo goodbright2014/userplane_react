@@ -12,8 +12,8 @@ const NavBar = () => {
         <div>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="title" color="inherit">
-                        Scene representation 에 대한 탐구
+                    <Typography gutterBottom variant="h5" component="div">
+                    Scene representation 에 대한 탐구
                     </Typography>
                 </Toolbar>
             </AppBar>

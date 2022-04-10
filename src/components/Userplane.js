@@ -26,7 +26,7 @@ class CourseList extends Component {
                  <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
                 
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Depth
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -56,7 +56,7 @@ class CourseList extends Component {
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
                 
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Tessellation
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -79,7 +79,7 @@ class CourseList extends Component {
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
                 
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         3D Visualization
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -105,7 +105,7 @@ class CourseList extends Component {
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
                 
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Photorealistic
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -124,7 +124,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Synthetic data
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -142,7 +142,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Digital Twins
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -160,7 +160,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Digital Twins - Simulation
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -181,7 +181,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Graph of Digital Twins
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -201,7 +201,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Machine Learning platform 
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -234,7 +234,7 @@ class CourseList extends Component {
 
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Brisbane’s new ferry terminals - a visual explanation of exactly how the ferry is resilient to rising water
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -248,7 +248,7 @@ class CourseList extends Component {
                 <YouTube className="Center" videoId="UVqDpfruFjc" opts={opts} onReady={this._onReady} />;
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Marvelous Designer
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -267,7 +267,7 @@ class CourseList extends Component {
                 </div>
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         High Performance Computing 
                         </Typography>
                         <Typography variant="body2" color="text.secondary" >
@@ -294,7 +294,7 @@ class CourseList extends Component {
 
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>   
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Connect
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
@@ -324,7 +324,7 @@ class CourseList extends Component {
 
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>   
-                        <Typography gutterBottom variant="h5" component="div">
+                        <Typography gutterBottom variant="h6" component="div">
                         Future plan - Industrial Intelligence
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
