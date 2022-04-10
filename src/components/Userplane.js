@@ -98,6 +98,9 @@ class CourseList extends Component {
                         <Typography variant="body2" color="text.secondary">
                         소프트웨어 알고리즘을 사용하여 최적화된 오브젝트에 깊이, texture , 빛의 산란 ,반사등을 더하여 입체적인 2D 이미지를 만들수 있습니다
                         </Typography>
+                        <Typography style={{color: 'green'}} variant="body2" color="text.secondary">
+                        Picture courtesy : Unity
+                        </Typography>
                     </CardContent>
 
                 </Card>
