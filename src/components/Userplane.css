@@ -50,3 +50,34 @@
     margin-right: auto;
 
   }
+
+  .engineroom {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .saltflat {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  .depth {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+  .usingar {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
