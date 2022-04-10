@@ -353,7 +353,7 @@ class CourseList extends Component {
                 <Card style={{ border: "none", boxShadow: "none" }}>
                     <CardContent>   
                         <Typography gutterBottom variant="h6" component="div">
-                        Future plan - Industrial Intelligence
+                        Future plan - Manufacturing Intelligence
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                         인스턴스 세그먼테이션을 통한 영역분리, 3차원 깊이정보 및 광학 흐름 등의 풍부한 주석이 있는 쎄미 리얼리스틱한 합성물로부터 디지털트윈 구현을 위한 풍부한 오브젝트를 지원합니다
@@ -373,7 +373,24 @@ class CourseList extends Component {
                         />
                 </div>
    
-               
+                <Card style={{ border: "none", boxShadow: "none" }}>
+                    <CardContent>   
+                        <Typography gutterBottom variant="h6" component="div">
+                        How To Meet ESG Goals 
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        제조 지능화는 전 세계적인 경영 화두인 ESG(환경, 사회, 지배구조)의 필수 요소로 꼽힌다. 
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        제조 지능화가 구축되면 배터리 생산 전 공정에서 정보통신기술(ICT) 기반의 실시간 모니터링 시스템이 마련되고, 고효율고·품질 제품 양산이 가능하다. 
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                        에너지 효율화, 탄소 중립 및 재생에너지 사용 등 각 기업의 ESG 경영 목표 달성을 위해서는 제조 지능화를 통한 공정 디지털화가 필수적이다.
+                        </Typography>
+                        
+
+                    </CardContent>
+                </Card>
                 <AppBar position="static">
                     <Toolbar>
 
