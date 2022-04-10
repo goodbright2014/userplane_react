@@ -382,13 +382,13 @@ class CourseList extends Component {
                         How To Meet ESG Goals 
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        제조 지능화는 전 세계적인 경영 화두인 ESG(환경, 사회, 지배구조)의 필수 요소로 꼽힌다. 
+                        제조 지능화는 전 세계적인 경영 화두인 ESG(환경, 사회, 지배구조)의 필수 요소로 간주되고 있습니다. 
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        제조 지능화가 구축되면 배터리 생산 전 공정에서 정보통신기술(ICT) 기반의 실시간 모니터링 시스템이 마련되고, 고효율고·품질 제품 양산이 가능하다. 
+                        제조 지능화가 구축되면 배터리 생산 전 공정에서 정보통신기술(ICT) 기반의 실시간 모니터링 시스템이 마련되고, 고효율고·품질 제품 양산이 가능해집니다. 
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
-                        에너지 효율화, 탄소 중립 및 재생에너지 사용 등 각 기업의 ESG 경영 목표 달성을 위해서는 제조 지능화를 통한 공정 디지털화가 필수적이다.
+                        에너지 효율화, 탄소 중립 및 재생에너지 사용 등 각 기업의 ESG 경영 목표 달성을 위해서는 제조 지능화를 통한 공정 디지털화가 필수적입니다.
                         </Typography>
                         
 
