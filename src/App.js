@@ -5,6 +5,9 @@ import NavBar from './components/NavBar'
 import Userplane from './components/Userplane'
 
 class App extends Component {
+  componentDidMount(){
+    document.title = "userplane Inc."
+  }
   render() {
     return (
       <div>

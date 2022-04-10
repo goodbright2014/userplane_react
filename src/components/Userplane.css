@@ -3,6 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    outline:none;
   }
   .cubic {
     background-color: black;
@@ -17,5 +18,35 @@
     height: 512px;
     margin-left: auto;
     margin-right: auto;
-  
-}
+  }
+  .escape {
+    display: block;
+    width: 413px; 
+    height: 516px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .dali {
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 413px; 
+    height: 516px;
+  }
+  .compareSlider {
+
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .tessellation {
+    transform :scale(0.5);
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
