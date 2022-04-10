@@ -391,6 +391,19 @@ class CourseList extends Component {
 
                     </CardContent>
                 </Card>
+
+                <Card style={{ border: "none", boxShadow: "none" }}>
+                    <CardContent>   
+                      
+                       
+                        <Typography variant="body2" color="text.secondary">
+                        감사합니다
+                        </Typography>
+                        
+
+                    </CardContent>
+                </Card>
+
                 <AppBar position="static">
                     <Toolbar>
 
