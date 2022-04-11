@@ -411,12 +411,14 @@ class CourseList extends Component {
                     <Toolbar>
 
                     <Grid container justify="space-between">  
-                            <Typography >
-                            55 Seocho-daero 77-gil, Seocho-gu, Seoul
+                            <Typography style={{whiteSpace: 'pre-line'}}>
+                            55 Seocho-daero 77-gil, Seocho-gu, Seoul <br />
+                            jaehyu@userplane.co.kr
                             </Typography>
-                            <Typography variant="title" align="right">
-                            userplane Inc.
-                        </Typography>
+                            <Typography variant="title" align="right">   
+                            Copyright ©2022 userplane, Inc.
+                            </Typography>
+                            
                         </Grid>
                     </Toolbar>
                 </AppBar>
