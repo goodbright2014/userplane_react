@@ -121,7 +121,7 @@ class CourseList extends Component {
                     <CardContent>
                 
                         <Typography gutterBottom variant="h6" component="div">
-                        Photorealistic
+                        Photorealistic (Neural Rendering)
                         </Typography>
                         <Typography variant="body2" color="text.secondary">
                         사물의 깊이에 대응하는 특정 3차원 위치의 모든 공간상 점에 대해서 색상 , 질감을 학습시킬 수 있고 
