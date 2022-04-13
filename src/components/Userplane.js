@@ -84,7 +84,7 @@ class CourseList extends Component {
                     backgroundColor: 'black'
                     
                 }}>
-                <ReactCompareSlider  style={{ "width":"50%", "margin": "auto" }}
+                <ReactCompareSlider  style={{ "width":"70%", "margin": "auto" }}
                 itemOne={<ReactCompareSliderImage  src="/assets/images/cad-tessellation-example-surface.webp"  alt="Image one" />}
                 itemTwo={<ReactCompareSliderImage  src="/assets/images/cad-tessellation-example-wireframe.webp" alt="Image two" />}
                 />
